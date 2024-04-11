@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <img src="./images/homeWorks.png" alt="logo" />
+      </section>
+      <section class="form">
+        <h1 class="form__title" id="title">Get your free account</h1>
+        <div class="form__text">
+          Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free
+          Forever) anytime.
+        </div>
+        <form action="" class="form__action" id="form">
+          <label class="form__action-input">
+            Full name
+            <input type="text" id="full-name" />
+          </label>
+          <label class="form__action-input">
+            Your username
+            <input type="text" id="username" />
+          </label>
+          <label class="form__action-input">
+            E-mail
+            <input type="text" id="email" />
+          </label>
+          <label class="form__action-input">
+            Password
+            <input type="password" id="password" />
+          </label>
+          <label class="form__action-input">
+            Repeat Password
+            <input type="password" id="repeat-password" />
+          </label>
+          <div class="privacy" id="privacy">
+            <input type="checkbox" aria-checked id="checkbox" />
+            Agree to our Terms of Service and Privacy Statement
+          </div>
+          <div class="form__action-btn">
+            <button class="btn form__btn" type="button" id="button">
+              Sign Up
+            </button>
+            <a href="#" id="account">Already have an account?</a>
+          </div>
+        </form>
+      </section>
+      <section class="image">
+        <img src="./images/image.png" alt="image" />
+      </section>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-container">
+        На вашу почту выслана ссылка, перейдите по ней, чтобы завершить
+        регистрацию
+        <button class="btn btn-ok" id="btn-ok">OK</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
